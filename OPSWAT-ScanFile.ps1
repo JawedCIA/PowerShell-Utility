@@ -1,4 +1,7 @@
-﻿function OPSWATScanFile 
+#Discription: Script to Scan files over OPSWat using Metdefender API and display results of scan
+#Auther: MD
+
+function OPSWATScanFile 
 {
  param(
         [string]$site,
@@ -69,4 +72,4 @@ Try
         }
 }
 
-OPSWATScanFile -site "https://mdcore.sg.iaea.org" -FolderPathForScan "C:\Users\mohammedj\Desktop\MSc-EM\Thesis\Sample\Test"
+OPSWATScanFile -site "https://MDCore.site.com" -FolderPathForScan "C:\FileToScan"
